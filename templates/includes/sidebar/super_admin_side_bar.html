@@ -1,0 +1,17 @@
+
+{% load static %}
+<div class="left-sidenav">
+    <!-- LOGO -->
+    <div class="">
+        <a href="{% url 'index' %}" class="logo"></a>
+    </div>
+    <!--end logo-->
+    <div class="menu-content h-100" data-simplebar>
+        <ul class="metismenu left-sidenav-menu">
+            <li class="menu-label mt-0">Main</li>
+            <li>
+                <a href="{% url 'index' %}"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Dashboard</span><span class="menu-arrow"><i class="mdi mdi-chevron-down"></i></span></a>
+            </li>
+        </ul>
+    </div>
+</div>
